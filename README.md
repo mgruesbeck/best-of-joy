@@ -9,3 +9,4 @@
 - add more written content to style + contact
 - add base prices
 - how it works "step by step"
+- add Sam & Carolina

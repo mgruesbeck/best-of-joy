@@ -211,7 +211,8 @@ ga('send', 'pageview');
                     </figcaption>
                 </figure>
 
-                <!-- WORK 6 -->
+
+                <!--
                 <figure class="work6 effect-hover fade">
                     <img src="images/nicole_zachp.jpg" alt="Nicole & Zack Wedding">
                     <figcaption>
@@ -219,6 +220,7 @@ ga('send', 'pageview');
                     <p>Wedding Photography</p>
                     </figcaption>
                 </figure>
+                -->
 
                 <!-- WORK 7 -->
                 <figure class="work7 effect-hover fade">
@@ -226,15 +228,6 @@ ga('send', 'pageview');
                     <figcaption>
                     <h2>Alicia <span>&</span> Moti</h2>
                     <p>Wedding Photography</p>
-                    </figcaption>
-                </figure>
-
-                <!-- WORK 8 -->
-                <figure class="work8 effect-hover fade">
-                    <img src="images/albump.jpg" alt="Wedding Album">
-                    <figcaption>
-                    <h2>Albums</h2>
-                    <p>Special Services</p>
                     </figcaption>
                 </figure>
 
@@ -253,6 +246,15 @@ ga('send', 'pageview');
                     <figcaption>
                     <h2>Shannon <span>&</span> David</h2>
                     <p>Wedding Photography</p>
+                    </figcaption>
+                </figure>
+
+                <!-- WORK 8 -->
+                <figure class="work8 effect-hover fade">
+                    <img src="images/albump.jpg" alt="Wedding Album">
+                    <figcaption>
+                    <h2>Albums</h2>
+                    <p>Special Services</p>
                     </figcaption>
                 </figure>
 
