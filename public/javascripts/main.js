@@ -298,6 +298,33 @@ $('.work8').on('click', function() {
 });
 
 
+/* WORK 9 */
+
+$('.work9').on('click', function() {
+    $('.work9-container').fadeIn( 800,  function() {
+    	openAction();
+    });
+});
+
+
+/* WORK 10 */
+
+$('.work10').on('click', function() {
+    $('.work10-container').fadeIn( 800,  function() {
+    	openAction();
+    });
+});
+
+
+/* WORK 11 */
+
+$('.work11').on('click', function() {
+    $('.work11-container').fadeIn( 800,  function() {
+    	openAction();
+    });
+});
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	08. SMOOTH SCROLLING
