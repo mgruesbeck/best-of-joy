@@ -1,9 +1,6 @@
 #To do
-- format html
-- load portfolio in from template so index.html isn't so large
 - organize photos into folders
 - compress preview photos
-- add couples photo or remove portfolio entry
 - make special services stand out some how
 - add melvin + allison email with profile and contact
 - add more written content to style + contact

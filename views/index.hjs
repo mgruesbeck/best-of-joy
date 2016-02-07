@@ -1,218 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 <head>
-
     <!-- Meta tags & title /-->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>BEST OF JOY</title>
-    <meta name="description" content="Best of Joy is a wedding photography team. We love the expressiveness found in wedding and engagement photography.
-    We specialize in a photojounalistic style which flows with any wedding schedule and produces candid, inspired and memorable images." />
-    <meta name="keywords" content="Wedding, engagement, best of joy, photography, photo, images, pictures, Davis, Napa Valley" />
-
+    <meta content=
+    "Best of Joy is a wedding photography team. We love the expressiveness found in wedding and engagement photography. We specialize in a photojounalistic style which flows with any wedding schedule and produces candid, inspired and memorable images."
+    name="description">
+    <meta content=
+    "Wedding, engagement, best of joy, photography, photo, images, pictures, Davis, Napa Valley"
+    name="keywords"><!-- Favicon /-->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Favicon /-->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> <!-- Favicon /-->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-    <!-- Stylesheets /-->
-    <link rel="stylesheet" href="stylesheets/gumby.css">   			<!-- Gumby Framework /-->
-    <link rel="stylesheet" href="stylesheets/style.css">   			<!-- Main stylesheet /-->
-    <link rel="stylesheet" href="stylesheets/elementTransitions.css"> <!-- Elements Transitions used for mobile menu /-->
-    <link rel="stylesheet" href="stylesheets/font-awesome.css">   	<!-- Font Awesome /-->
-
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name=
+    "viewport"><!-- Stylesheets /-->
+    <link href="stylesheets/gumby.css" rel="stylesheet"><!-- Gumby Framework /-->
+    <link href="stylesheets/style.css" rel="stylesheet"><!-- Main stylesheet /-->
+    <link href="stylesheets/elementTransitions.css" rel="stylesheet">
+    <!-- Elements Transitions used for mobile menu /-->
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
+    <!-- Font Awesome /-->
     <!-- Javascripts /-->
-    <script src="javascripts/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 
+    <script src="javascripts/modernizr-2.6.2.min.js">
+    </script><!-- Modernizr /-->
     <!-- Google Things -->
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-41278174-4', 'bestofjoy.com');
-ga('send', 'pageview');
+    <script async src="//www.google-analytics.com/analytics.js">
     </script>
+    <script type="text/javascript">
+             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+             ga('create', 'UA-41278174-4', 'bestofjoy.com');
+             ga('send', 'pageview');
+    </script>
 </head>
-
-
 <body>
-
-
     <!-- NAVIGATION ############################################### -->
-
-
     <div class="cbp-af-header">
-
         <nav class="row">
-
             <!-- Logo -->
-
             <div id="logo">
-
                 <a class="goto" href="#">BEST OF JOY</a>
-
-            </div>
-
-            <!-- Links -->
-
-            <ul id="nav" >
-
-                <li><a href="#contact" class="goto">Contact</a></li>
-
-                <li><a href="#works" class="goto">Works</a></li>
-
-                <li><a href="#style" class="goto">Style</a></li>
-
+            </div><!-- Links -->
+            <ul id="nav">
+                <li>
+                    <a class="goto" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="goto" href="#works">Works</a>
+                </li>
+                <li>
+                    <a class="goto" href="#style">Style</a>
+                </li>
             </ul>
-
         </nav>
-
-
-    </div>
-
-
-    <!-- END NAVIGATION ############################################### -->
-
-
+    </div><!-- END NAVIGATION ############################################### -->
     <!-- HEADER ############################################### -->
-
-
-    <section id="header" class="et-wrapper">
-
-        <button class="et-rotate" et-in="scaleUpDown delay300" et-out="scaleDown"><img src="images/hamburger.png" alt="Display Mobile Menu"></button>
-
-        <div class="et-page"> <!-- For Mobile Menu transition -->
-
+    <section class="et-wrapper" id="header">
+        <button class="et-rotate"><img alt="Display Mobile Menu" src=
+        "images/hamburger.png"></button>
+        <div class="et-page">
+            <!-- For Mobile Menu transition -->
             <!-- Huge Title centered -->
-
             <div class="huge-title">
-
-                <div class="logo-phone centered"><img alt="best of joy" src="images/bestofjoy-logo.png"></div>  <!-- This Logo is only displayed on Tablet/iPhone !-->
-
+                <div class="logo-phone centered"><img alt="best of joy" src=
+                "images/bestofjoy-logo.png"></div>
+                <!-- This Logo is only displayed on Tablet/iPhone !-->
                 <h1>Love Matters.</h1>
-
-            </div>
-
-            <!-- Little text on bottom with arrow -->
-
-            <div class="go-down">
-
-                <img src="images/go-down.png" alt="Go Down">
-
-            </div>
-
-        </div> <!-- End et-page transition -->
-
-        <div class="et-page"> <!-- For Mobile Menu transition -->
-
+            </div><!-- Little text on bottom with arrow -->
+            <div class="go-down"><img alt="Go Down" src="images/go-down.png"></div>
+        </div><!-- End et-page transition -->
+        <div class="et-page">
+            <!-- For Mobile Menu transition -->
             <nav class="menu-off">
-
                 <ul class="nav-off">
-                    <li><a href="#method" class="goto">Style</a></li>
-                    <li><a href="#works" class="goto">Works</a></li>
-                    <li><a href="#contact" class="goto">Contact</a></li>
+                    <li>
+                        <a class="goto" href="#method">Style</a>
+                    </li>
+                    <li>
+                        <a class="goto" href="#works">Works</a>
+                    </li>
+                    <li>
+                        <a class="goto" href="#contact">Contact</a>
+                    </li>
                 </ul>
-
             </nav>
-
-        </div> <!-- End et-page transition -->
-
-    </section>
-
-
-    <!-- END HEADER ############################################### -->
-
-
-
+        </div><!-- End et-page transition -->
+    </section><!-- END HEADER ############################################### -->
     <!-- BEGIN CONTAINER ############################################### -->
-
-
-    <div id="container" class="container">
-
-
+    <div class="container" id="container">
         <!-- WHAT WE DO SECTION ############################################### -->
-
-
         <section id="style">
-
             <!-- Title -->
-
             <h3>Our Style</h3>
-
-            <p class="lead">Congratulations on taking the plunge! Best of Joy is a wedding photography team. We love the expressiveness found in wedding and engagement photography.<br>
-            We specialize in a photojounalistic style which flows with any wedding schedule and produces candid, inspired and memorable images.</p>
-
+            <p class="lead">Congratulations on taking the plunge! Best of Joy is a
+            wedding photography team. We love the expressiveness found in wedding and
+            engagement photography.<br>
+            We specialize in a photojounalistic style which flows with any wedding
+            schedule and produces candid, inspired and memorable images.</p>
         </section>
-
         <!-- END WHAT WE DO SECTION ############################################### -->
-
-
-
-
         <!-- PORTFOLIO SECTION ############################################### -->
-
-
         <section id="works">
-
             <div class="grid">
-
                 <!-- !!!! WORK-CONTENT ARE ON THE BOTTOM OF THIS HTML PAGE !!!!! -->
-
                 <!-- WORK 1 -->
                 <figure class="work1 effect-hover fade">
-                    <img src="images/jenna_klintp.jpg" alt="Jenna & Klint Engagement">
+                    <img alt="Jenna & Klint Engagement" src="images/jenna_klintp.jpg">
                     <figcaption>
-                    <h2>Jenna <span>&</span> Klint</h2>
-                    <p>Engagement  Photography</p>
+                        <h2>Jenna <span>&</span> Klint</h2>
+                        <p>Engagement Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 2 -->
+                </figure><!-- WORK 2 -->
                 <figure class="work2 effect-hover fade">
-                    <img src="images/gaby_darrenp.jpg" alt="Gabby & Darren Wedding">
+                    <img alt="Gabby & Darren Wedding" src="images/gaby_darrenp.jpg">
                     <figcaption>
-                    <h2>Gaby <span>&</span> Darren</h2>
-                    <p>Wedding Photography</p>
+                        <h2>Gaby <span>&</span> Darren</h2>
+                        <p>Wedding Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 3 -->
+                </figure><!-- WORK 3 -->
                 <figure class="work3 effect-hover fade">
-                    <img src="images/trisha_jonathan-ep.jpg" alt="Trisha & Jonathan Engagement">
+                    <img alt="Trisha & Jonathan Engagement" src=
+                    "images/trisha_jonathan-ep.jpg">
                     <figcaption>
-                    <h2>Trisha <span>&</span> Jonathan</h2>
-                    <p>Engagement Photography</p>
+                        <h2>Trisha <span>&</span> Jonathan</h2>
+                        <p>Engagement Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 4 -->
+                </figure><!-- WORK 4 -->
                 <figure class="work4 effect-hover fade">
-                    <img src="images/trisha_jonathan-wp.jpg" alt="Trisha & Jonathan Wedding">
+                    <img alt="Trisha & Jonathan Wedding" src="images/trisha_jonathan-wp.jpg">
                     <figcaption>
-                    <h2>Trisha <span>&</span> Jonathan</h2>
-                    <p>Wedding Photography</p>
+                        <h2>Trisha <span>&</span> Jonathan</h2>
+                        <p>Wedding Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 5 -->
+                </figure><!-- WORK 5 -->
                 <figure class="work5 effect-hover fade">
-                    <img src="images/kayloni_darinp.jpg" alt="Kayloni & Darin Couple">
+                    <img alt="Kayloni & Darin Couple" src="images/kayloni_darinp.jpg">
                     <figcaption>
-                    <h2>Kayloni <span>&</span> Darin</h2>
-                    <p>Couples Photography</p>
+                        <h2>Kayloni <span>&</span> Darin</h2>
+                        <p>Couples Photography</p>
                     </figcaption>
-                </figure>
-
-
-                <!--
+                </figure><!--
                 <figure class="work6 effect-hover fade">
                     <img src="images/nicole_zachp.jpg" alt="Nicole & Zack Wedding">
                     <figcaption>
@@ -221,923 +160,120 @@ ga('send', 'pageview');
                     </figcaption>
                 </figure>
                 -->
-
                 <!-- WORK 7 -->
                 <figure class="work7 effect-hover fade">
-                    <img src="images/alicia_motip.jpg" alt="Alicia & Moti Wedding">
+                    <img alt="Alicia & Moti Wedding" src="images/alicia_motip.jpg">
                     <figcaption>
-                    <h2>Alicia <span>&</span> Moti</h2>
-                    <p>Wedding Photography</p>
+                        <h2>Alicia <span>&</span> Moti</h2>
+                        <p>Wedding Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 9 -->
+                </figure><!-- WORK 9 -->
                 <figure class="work9 effect-hover fade">
-                    <img src="images/sam_wally1.jpg" alt="Engagement Photography">
+                    <img alt="Engagement Photography" src="images/sam_wally1.jpg">
                     <figcaption>
-                    <h2>Sam <span>&</span> Wally</h2>
-                    <p>Engagement Photography</p>
+                        <h2>Sam <span>&</span> Wally</h2>
+                        <p>Engagement Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 10 -->
+                </figure><!-- WORK 10 -->
                 <figure class="work10 effect-hover fade">
-                    <img src="images/shannon_david1.jpg" alt="Wedding Photography">
+                    <img alt="Wedding Photography" src="images/shannon_david1.jpg">
                     <figcaption>
-                    <h2>Shannon <span>&</span> David</h2>
-                    <p>Wedding Photography</p>
+                        <h2>Shannon <span>&</span> David</h2>
+                        <p>Wedding Photography</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 8 -->
+                </figure><!-- WORK 8 -->
                 <figure class="work8 effect-hover fade">
-                    <img src="images/albump.jpg" alt="Wedding Album">
+                    <img alt="Wedding Album" src="images/albump.jpg">
                     <figcaption>
-                    <h2>Albums</h2>
-                    <p>Special Services</p>
+                        <h2>Albums</h2>
+                        <p>Special Services</p>
                     </figcaption>
-                </figure>
-
-                <!-- WORK 11 -->
+                </figure><!-- WORK 11 -->
                 <figure class="work11 effect-hover fade">
-                    <img src="images/kristen_dylan1.jpg" alt="Photobooths">
+                    <img alt="Photobooths" src="images/kristen_dylan1.jpg">
                     <figcaption>
-                    <h2>Photobooths</h2>
-                    <p>Special Services</p>
+                        <h2>Photobooths</h2>
+                        <p>Special Services</p>
                     </figcaption>
                 </figure>
-
-                <!-- !!!! WORK-CONTENT ARE ON THE BOTTOM OF THIS HTML PAGE !!!!! -->
-
-            </div> <!-- End grid -->
-
+            </div><!-- End grid -->
         </section>
-
         <!-- END PORTFOLIO SECTION ############################################### -->
-
-
         <!-- SUBSCRIBE SECTION ############################################### -->
-
-
-        <section id="contact" class="scrollme">
-
+        <section class="scrollme" id="contact">
             <div class="centered">
-
                 <!-- Title -->
-
                 <h3>Let's work together.</h3>
-
-                <p class="lead">Interested in working with us? We are thrilled! We love affectionate couples, easy going attitudes, DIY touches, practical jokes, and fun!<br>
-                We don't love shot-lists, stuffy weddings and bossy wedding planners. Still sound good? Then introduce yourself!</p>
-
+                <p class="lead">Interested in working with us? We are thrilled! We love
+                affectionate couples, easy going attitudes, DIY touches, practical jokes,
+                and fun!<br>
+                We don't love shot-lists, stuffy weddings and bossy wedding planners. Still
+                sound good? Then introduce yourself!</p>
             </div>
-
             <div class="row">
-
                 <div class="twelve columns">
-
                     <h4>Contact</h4>
                     <p>Best of Joy is based in Davis and Napa Valley California.</p>
                     <p><a href="mailto:mgruesbeck@gmail.com">mgruesbeck@gmail.com</a></p>
-
                 </div>
-
             </div>
-
         </section>
-
-
         <!-- END SUBSCRIBE SECTION ############################################### -->
-
-
-
         <!-- FOOTER SECTION ############################################### -->
-
-
         <section id="footer">
-
             <div class="row">
-
                 <div class="three columns">
-
                     <p>All you need is love.</p>
-
                 </div>
-
                 <div class="two columns push_seven text-right">
-
-                    <a href="https://www.facebook.com/bestofjoyphoto">fb.com/bestofjoyphoto</a>
-
+                    <a href=
+                    "https://www.facebook.com/bestofjoyphoto">fb.com/bestofjoyphoto</a>
                 </div>
-
             </div>
-
-            <div class="logo-footer scrollme animateme"  data-from="0.6" data-to="0" data-opacity="0" data-translatey="100" data-rotatez="0"><a href="#header" class="goto"></a></div>
-
+            <div class="logo-footer scrollme animateme" data-from="0.6" data-opacity="0"
+            data-rotatez="0" data-to="0" data-translatey="100">
+                <a class="goto" href="#header"></a>
+            </div>
         </section>
-
-
         <!-- END FOOTER SECTION ############################################### -->
 
+    {{> works}}
 
-
-    </div> <!-- end of container -->
-
-
-
-    <!-- WORKS CONTENT ############################################### -->
-
-
-
-    <!-- WORK 1 CONTAINER -->
-
-    <div class="work1-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/jenna_klint1.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint2.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint3.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint4.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint5.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint6.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint7.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint8.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint9.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint10.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint11.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Jenna & Klint</h4>
-
-            <!-- Information -->
-            <p>We were very excited when Klint called us to help with a surprise wilderness engagement. 
-            We love getting outdoors so the fact that it involved camping was a real treat.</p>
-            <p>The group started the day with an early morning hike to a scenic area.
-            Everyone did an awesome job playing along and kept the secret was kept alive. 
-            We reached the summit and the timing couldn't be better.
-            Klint worked up his courage, asked Jenna to marry him and she said yes!</p>
-            <br>
-            <p>Location: Kings Canyon National Park, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/jenna_klint1.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint2.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint3.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint4.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint5.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint6.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint7.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint8.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint9.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint10.jpg" alt="Engagement Photography">
-
-                <img src="images/jenna_klint11.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 2 CONTAINER -->
-
-    <div class="work2-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/gaby_darren1.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren2.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren3.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren4.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren5.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren6.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren7.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren8.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Gaby & Darren</h4>
-
-            <!-- Information -->
-            <p>We had the pleasure of working with Gaby and Darren for this summer wedding.
-            We shared the photo location with another group that day. 
-            Between taking turns at backdrops and positioning everyone it reminded us how lucky we were to be working with such an easy going couple.
-            </p>
-            <p>
-            <br>
-            <p>Location: Boise, Idaho</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/gaby_darren1.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren2.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren3.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren4.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren5.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren6.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren7.jpg" alt="Wedding Photography">
-
-                <img src="images/gaby_darren8.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 3 CONTAINER -->
-
-    <div class="work3-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/trisha_jonathan-e1.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e2.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e3.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e4.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e5.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e6.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e7.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e8.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e9.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Trisha & Jonathan Engagement</h4>
-
-            <!-- Information -->
-            <p>Trisha & Jonathan are incredibly high spirited.
-            The energy they bring with them is contagious. 
-            It's not easy opening up in front of a camera!
-            So when the duo continued to joke, dance and flirt we knew these images would be magic!</p>
-            <br>
-            <p>Location: Napa Valley, California.</p>
-
-            <!-- Content on Mobile View - same as content left ( don't forget the mobile-view class ) -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/trisha_jonathan-e1.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e2.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e3.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e4.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e5.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e6.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e7.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e8.jpg" alt="Engagement Photography">
-
-                <img src="images/trisha_jonathan-e9.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 4 CONTAINER -->
-
-    <div class="work4-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/trisha_jonathan-w1.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w2.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w3.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w4.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w5.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w6.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w7.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w8.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w9.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Trish & Jonathan Wedding</h4>
-
-            <!-- Information -->
-            <p>After finishing the engagement session Trisha & Jonathan invited us back for their fall wedding in Southern California.
-            The weather was perfect that day: warm, blue skies, light clouds, snow capped mountains.</p>
-            <p>We also want to mention the wedding party and guests.
-            These newly weds have a positive group of friends. 
-            Everyone was so involved and even helped us with photo opportunities.
-            If any of you are reading this -- thank you!</p>
-            <br>
-            <p>Location: Rancho Cucamonga, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/trisha_jonathan-w1.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w2.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w3.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w4.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w5.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w6.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w7.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w8.jpg" alt="Wedding Photography">
-
-                <img src="images/trisha_jonathan-w9.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 5 CONTAINER -->
-
-    <div class="work5-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/kayloni_darin1.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin2.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin3.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin4.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin5.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin6.jpg" alt="Couples Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Kayloni & Darin</h4>
-
-            <!-- Information -->
-            <p>This impromptu couples shoot happened while exploring California's north coast.
-            We've known the couple for years. In fact, one of the first engagement shoots we did was with Kayloni & Darin.</p>
-            <p>When we ended up in this scenic area we had to take a few pictures for old times sake!</p>
-            <br>
-            <p>Location: Albion, California</p>
-
-            <!-- Content on Mobile View - same as content left ( don't forget the mobile-view class ) -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/kayloni_darin1.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin2.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin3.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin4.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin5.jpg" alt="Couples Photography">
-
-                <img src="images/kayloni_darin6.jpg" alt="Couples Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 6 CONTAINER -->
-
-    <div class="work6-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/nicole_zach1.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach2.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach3.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach4.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach5.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach6.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach7.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach8.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach9.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Nicole & Zach</h4>
-
-            <!-- Information -->
-            <p>Set in the historic Ken Wood Depot on the west end of Sonoma Valley. 
-            This winter wedding was youthful and light hearted. Nicole is a graphic designer and Zach is a pilot. 
-            So the wedding had subtle toasts to each of these worlds.</p>
-            <p>The programs and menus were tastefully done.
-            A group of planes even flew over the wedding. We're still not sure if that was coincidence or orchestration. In either case, it was awesome. Thanks for the memories!</p>
-            <br>
-            <p>Location: Sonoma, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/nicole_zach1.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach2.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach3.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach4.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach5.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach6.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach7.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach8.jpg" alt="Wedding Photography">
-
-                <img src="images/nicole_zach9.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 7 CONTAINER -->
-
-    <div class="work7-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/alicia_moti1.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti2.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti3.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti4.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti5.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Alicia & Moti</h4>
-
-            <!-- Information -->
-            <p>These images are very nostalgic for us as this was our first wedding ever! 
-            Alicia and Moti have a great story. They meet while Alicia was doing aid work over seas.
-            They, and their families, are all passionate about helping others. This was apparent in the way the guests were cared for.
-            </p>
-            <p>We were impressed with how the family got behind the event.
-            Among other things, a platform, thatched fence and a floating stage were hand made to pull this day off.
-            So cool! Thanks for having us guys!
-            </p>
-            <br>
-            <p>Location: Coulterville, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/alicia_moti1.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti2.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti3.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti4.jpg" alt="Wedding Photography">
-
-                <img src="images/alicia_moti5.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 8 CONTAINER -->
-
-    <div class="work8-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/album1.jpg" alt="Wedding Album">
-
-                <img src="images/album2.jpg" alt="Wedding Album">
-
-                <img src="images/album3.jpg" alt="Wedding Album">
-
-                <img src="images/album4.jpg" alt="Wedding Album">
-
-                <img src="images/album5.jpg" alt="Wedding Album">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Wedding Album</h4>
-
-            <!-- Information -->
-            <p>Like our photography? We design wedding albums as well.
-            Just mention it in our initial interview and we'll add it on your quote!
-            </p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/album1.jpg" alt="Wedding Album">
-
-                <img src="images/album2.jpg" alt="Wedding Album">
-
-                <img src="images/album3.jpg" alt="Wedding Album">
-
-                <img src="images/album4.jpg" alt="Wedding Album">
-
-                <img src="images/album5.jpg" alt="Wedding Album">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 9 CONTAINER -->
-
-    <div class="work9-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/sam_wally1.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally2.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally3.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally4.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally5.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally6.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Sam & Wally</h4>
-
-            <!-- Information -->
-            <p>Not only did we love seeing our two friends get engaged, but we also loved hanging out with them for the afternoon and documenting their love. </p>
-            <br>
-            <p>Location: Napa Valley, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/sam_wally1.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally2.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally3.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally4.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally5.jpg" alt="Engagement Photography">
-
-                <img src="images/sam_wally6.jpg" alt="Engagement Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 10 CONTAINER -->
-
-    <div class="work10-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/shannon_david1.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david2.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david3.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david4.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david5.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david6.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david7.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david8.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Shannon & David</h4>
-
-            <!-- Information -->
-            <p>With Shannon and David’s wedding we had the opportunity to travel to the Great Pacific Northwest. This summer wedding was a small intimate gathering of a handful of their closest friends and family members.</p>
-            <br>
-            <p>Location: Walla Walla, Washington</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/shannon_david1.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david2.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david3.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david4.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david5.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david6.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david7.jpg" alt="Wedding Photography">
-
-                <img src="images/shannon_david8.jpg" alt="Wedding Photography">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- WORK 11 CONTAINER -->
-
-    <div class="work11-container shadow">
-
-        <!-- Content Left -->
-        <div class="content-left row">
-
-            <div class="ten columns centered">
-
-                <img src="images/kristen_dylan1.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan2.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan3.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan4.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan5.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan6.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan7.jpg" alt="Photo Booths">
-
-            </div>
-
-        </div>
-
-        <!-- Content Right -->
-        <div class="content-right">
-
-            <!-- close btn -->
-            <div class="closex"></div>
-
-            <!-- Title -->
-            <h4>Wedding Album</h4>
-
-            <!-- Information -->
-            <p>We offer digital photobooth services, which gives your guests a fun interactive way to remember the event and share this special day with you.</p>
-            <br>
-            <p>Location: Los Angeles, California</p>
-
-            <!-- Content on Mobile View - same as content left -->
-            <div class="ten columns centered mobile-view">
-
-                <img src="images/kristen_dylan1.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan2.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan3.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan4.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan5.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan6.jpg" alt="Photo Booths">
-
-                <img src="images/kristen_dylan7.jpg" alt="Photo Booths">
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- END WORKS CONTENT ############################################### -->
-
-
-
-
+    </div><!-- end of container -->
     <!-- Grab Google CDN's jQuery, fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.9.1.min.js"><\/script>')</script>
-
-    <script src="javascripts/main.js" type="text/javascript"></script> 								<!-- Main Javascript File -->
-    <script src="javascripts/plugins.js" type="text/javascript"></script> 								<!-- Plugins File for Contact Form -->
-    <script src="javascripts/classie.js" type="text/javascript"></script> 								<!-- Navigation & Works Grid -->
-    <script src="javascripts/jquery.parallax-1.1.3.js" type="text/javascript"></script> 				<!-- Parallax -->
-    <script src="javascripts/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->
-    <script src="javascripts/waypoints.min.js" type="text/javascript"></script>						<!-- Waypoints -->
-    <script src="javascripts/mediaCheck.js" type="text/javascript"></script> 							<!-- MediaCheck -->
-    <script src="javascripts/yui.js" type="text/javascript"></script>									<!-- Yui Library -->
-    <script src="javascripts/jquery.scrollme.js" type="text/javascript"></script>						<!-- Scrollme Library -->
-    <script src="javascripts/elementTransitions.min.js" type="text/javascript"></script>				<!-- ElementsTransitions used for Mobile Menu -->
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script> 
+    <script>
+             window.jQuery || document.write('<script src="javascripts/jquery-1.9.1.min.js"><\/script>')
+    </script> 
+    <script src="javascripts/main.js" type="text/javascript">
+    </script> <!-- Main Javascript File -->
+     
+    <script src="javascripts/plugins.js" type="text/javascript">
+    </script> <!-- Plugins File for Contact Form -->
+     
+    <script src="javascripts/classie.js" type="text/javascript">
+    </script> <!-- Navigation & Works Grid -->
+     
+    <script src="javascripts/jquery.parallax-1.1.3.js" type="text/javascript">
+    </script> <!-- Parallax -->
+     
+    <script src="javascripts/jquery.scrollto.js" type="text/javascript">
+    </script> <!-- ScrollTo -->
+     
+    <script src="javascripts/waypoints.min.js" type="text/javascript">
+    </script> <!-- Waypoints -->
+     
+    <script src="javascripts/mediaCheck.js" type="text/javascript">
+    </script> <!-- MediaCheck -->
+     
+    <script src="javascripts/yui.js" type="text/javascript">
+    </script> <!-- Yui Library -->
+     
+    <script src="javascripts/jquery.scrollme.js" type="text/javascript">
+    </script> <!-- Scrollme Library -->
+     
+    <script src="javascripts/elementTransitions.min.js" type="text/javascript">
+    </script> <!-- ElementsTransitions used for Mobile Menu -->
 </body>
-
 </html>
